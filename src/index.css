@@ -11,3 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ====================sidebar========================= */
+.dash{
+  background-color: #f5f5f5;
+}
+.groupe{
+  background-image: url(./Image/Group1.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  right: 50px;
+}
+.image{
+  position: relative;
+  left: 20px;
+}
+.une:hover{
+   color: orange;
+   background: rgb(247, 215, 156);
+    border-radius: 42%;
+    cursor: pointer;
+}
+
+.text{
+  color: orange;
+}
+@media (max-width: 992px) {
+  .une:hover{
+    color: orange;
+    background: white;
+     border-radius: 42%;
+ }
+  .marke{
+    font-size : 8px
+  }
+  .groupe{
+    width: 0px;
+  }
+  .image{
+    width: 0px;
+  }
+}
+.GROUP{
+  background-image: url('../src/assets/img/Group.png');
+}
+.fte{
+  font-size: 12px;
+}
+
+.dino{
+  position: absolute !important;
+  width: 100%;
+  height: 100%;
+  
+ 
+  
+  
+  
+  
+ 
+
+  
+  border-radius: 0px 0px 18px 18px;
+}
+.dino3{
+  background-color: rgba(106, 106, 106, 0.69) !important;
+  width: 94%;
+}
+.TRE{
+  height: 75% !important;
+}
+.ftre:hover .dino{
+  display: flex !important;
+
+}
